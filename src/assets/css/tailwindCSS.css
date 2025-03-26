@@ -5,6 +5,3 @@
 .max-w-containerWidth{
     border: 1px solid rgba(255, 0, 0, 0.404);
 }
-*{
-    box-sizing: border-box;
-}
