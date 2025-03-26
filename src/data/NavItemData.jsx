@@ -1,11 +1,12 @@
 export const navItemData = [
     {
         "itemText" : "Home",
-        "url" : "/"
+        "url" : "/",
+        "dummyUrl" : "https://preview.themeforest.net/item/porto-responsive-html5-template/full_screen_preview/4106987?_ga=2.110173125.1337380955.1742921267-617989526.1726215636"
     },
     {
         "itemText" : "Page - 2",
-        "url" : "#"
+        "url" : "/projectOne"
     },
     {
         "itemText" : "Page - 3",
