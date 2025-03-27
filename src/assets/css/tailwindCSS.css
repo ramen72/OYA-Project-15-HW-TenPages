@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: "Poppins", sans-serif;
+}
 .max-w-containerWidth{
     border: 1px solid rgba(255, 0, 0, 0.404);
 }

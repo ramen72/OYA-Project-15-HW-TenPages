@@ -16,6 +16,8 @@ export default {
       colors:{
         "pOnePrimary" : '#E04622',
         "navBG" : 'rgba(255, 255, 255, 0.8)',
+        "headingColor" : '#212529',
+        "paraColor" : '#777777',
       },backgroundImage: {
         'pOneBannerBG': "url('./src/AllProjects/projectOne/images/bannerBg.jpg')",
       },
