@@ -6,7 +6,8 @@ export const navItemData = [
     },
     {
         "itemText" : "Page - 2",
-        "url" : "/projectOne"
+        "url" : "/projectOne",
+        "dummyUrl" : "https://www.okler.net/previews/porto/12.1.0/demo-construction.html"
     },
     {
         "itemText" : "Page - 3",

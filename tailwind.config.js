@@ -8,8 +8,32 @@ export default {
     extend: {
       maxWidth: {
         'containerWidth': '1320px',
-      }
+        'containerOne': '1140px',
+      },
+      fontFamily: {
+        'poppins': `"Poppins", sans-serif`,
+      },
+      colors:{
+        "pOnePrimary" : '#E04622',
+        "navBG" : 'rgba(255, 255, 255, 0.8)',
+      },backgroundImage: {
+        'pOneBannerBG': "url('./src/AllProjects/projectOne/images/bannerBg.jpg')",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities(
+        {
+          '.text-transparent-stroke': {
+            '-webkit-text-fill-color': 'transparent',
+            '-webkit-text-stroke-color': 'white',
+            '-webkit-text-stroke-width': '0.3px',
+            'letter-spacing': '5px',
+          },
+        },
+        ['responsive', 'hover']
+      );
+    },
+  ],
 }
