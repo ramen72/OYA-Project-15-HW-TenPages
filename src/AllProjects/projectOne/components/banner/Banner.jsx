@@ -12,8 +12,8 @@ const Banner = () => {
                     </div>
                 </div>
                 <img src={bannerImage} alt="" className='absolute right-16 bottom-0 h-[714px]'/>
-                <div class="absolute bottom-0 transform -translate-y-1/2 right-[-70px] w-[975px] bg-pOnePrimary text-white font-bold uppercase text-2xl md:text-2xl py-9 px-14 skew-x-[-50deg]">
-                    <span class="inline-block skew-x-[50deg]">#1 Fastest-Growing Company</span>
+                <div className="absolute bottom-0 transform -translate-y-1/2 right-[-70px] w-[975px] bg-pOnePrimary text-white font-bold uppercase text-2xl md:text-2xl py-9 px-14 skew-x-[-50deg]">
+                    <span className="inline-block skew-x-[50deg]">#1 Fastest-Growing Company</span>
                 </div>
             </div>
         </Fragment>
