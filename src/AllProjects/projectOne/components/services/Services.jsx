@@ -12,7 +12,7 @@ const Services = () => {
                     <div className="flex flex-wrap justify-between items-center gap-4 mt-8">
                     {
                         ServiceCardData.map((item,index)=>(
-                            <ServiceCard icon={item.icon} title={item.title} para={item.description} btnLink={item.btnLink}/>
+                            <ServiceCard key={index} icon={item.icon} title={item.title} para={item.description} btnLink={item.btnLink}/>
 
                         ))
                     }
