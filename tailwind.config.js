@@ -9,6 +9,7 @@ export default {
       maxWidth: {
         'containerWidth': '1320px',
         'containerOne': '1140px',
+        'containerTwo': '1140px',
       },
       fontFamily: {
         'poppins': `"Poppins", sans-serif`,
