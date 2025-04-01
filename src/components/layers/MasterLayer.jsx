@@ -9,7 +9,7 @@ const MasterLayer = (props) => {
             {
                 props.children
             }
-            <Footer/>
+            {/* <Footer/> */}
         </Fragment>
     );
 };

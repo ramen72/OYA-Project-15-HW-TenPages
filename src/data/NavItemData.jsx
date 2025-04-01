@@ -1,7 +1,8 @@
 export const navItemData = [
     {
         "itemText" : "DummyLink",
-        "url" : "https://www.okler.net/previews/porto/12.1.0/demo-construction.html"
+        "url" : "https://www.okler.net/previews/porto/12.1.0/index-corporate-8.html",
+        "pageOneUrl" : "https://www.okler.net/previews/porto/12.1.0/demo-construction.html",
     },
     {
         "itemText" : "Home",
@@ -9,12 +10,12 @@ export const navItemData = [
         "dummyUrl" : "https://preview.themeforest.net/item/porto-responsive-html5-template/full_screen_preview/4106987?_ga=2.110173125.1337380955.1742921267-617989526.1726215636"
     },
     {
-        "itemText" : "Page - 2",
+        "itemText" : "Building dreams",
         "url" : "/projectOne"
     },
     {
-        "itemText" : "Page - 3",
-        "url" : "#"
+        "itemText" : "INCREDIBLE DESIGNS",
+        "url" : "/projectTwo#"
     },
     {
         "itemText" : "Page - 4",
@@ -40,8 +41,8 @@ export const navItemData = [
         "itemText" : "Page - 9",
         "url" : "#"
     },
-    {
-        "itemText" : "Page - 10",
-        "url" : "#"
-    },
+    // {
+    //     "itemText" : "Page - 10",
+    //     "url" : "#"
+    // },
 ]
