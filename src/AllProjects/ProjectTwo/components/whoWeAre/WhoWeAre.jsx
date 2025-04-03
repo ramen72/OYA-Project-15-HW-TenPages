@@ -15,7 +15,7 @@ const WhoWeAre = () => {
                         <p className='max-w-[625px] text-paraColor text-lg mb-6'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enikklam id valorem ipsum dolor sit amet, consectetur adipiscinLorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
-                        <p className='max-w-[625px] text-paraColor text-[14px] mb-6'>
+                        <p className='max-w-[610px] text-paraColor text-[14px] mb-6'>
                             Phasellus blandit massa enim. Nullam id varius elit. blandit massa enim d varius blandit massa enimariusi d varius elit. blandit massa enimariud varius elit. blandit massa enimariusisi ariusius.
                         </p>
                         <Link to={"/projectTwo"} className='text-twoPrimaryColor font-bold text-[12px] uppercase border py-2 px-5 rounded-sm'>View more <IoIosArrowForward className='inline-block text-base'/></Link>

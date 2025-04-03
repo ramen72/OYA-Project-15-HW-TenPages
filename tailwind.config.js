@@ -9,7 +9,7 @@ export default {
       maxWidth: {
         'containerWidth': '1320px',
         'containerOne': '1140px',
-        'containerTwo': '1140px',
+        'containerTwo': '1120px',
       },
       fontFamily: {
         'poppins': `"Poppins", sans-serif`,
@@ -19,6 +19,8 @@ export default {
         "navBG" : '#ffffffcc',
         "headingColor" : '#212529',
         "paraColor" : '#777777',
+
+        
         // ProjectTwo
         "twoPrimaryColor" : '#079cf4',
         'twoPara': 'rgb(177 177 177)',
