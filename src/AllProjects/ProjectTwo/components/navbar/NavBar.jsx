@@ -11,11 +11,11 @@ const NavBar = () => {
     return (
         <Fragment>
             <div className='h-20 relative border-t-2'>
-                <nav className='w-full bg-navBG font-poppins fixed z-50'>
+                <nav className='w-full bg-navBG font-poppins py-8 sticky top-20 z-[99999]'>
                     <ul className="flex justify-center items-center gap-x-8 me-8">
                         {
                             NavDataProjectTwo.map((item,index)=>(
-                                <li key={index}><Link to={item.url} onClick={()=>setActive(item.navItem)} className={`text-sm uppercase ${active === item.navItem && "text-pOnePrimary"} bg-red-500 py-4 px-3 font-bold transition-all duration-200 hover:text-pOnePrimary`}>{item.navItem}</Link></li>
+                                <li key={index}><Link to={item.url} onClick={()=>setActive(item.navItem)} className={`text-sm uppercase ${active === item.navItem && "text-twoPrimaryColor"} py-4 px-3 font-bold transition-all duration-200 hover:text-twoPrimaryColor relative after:transition-all after:duration-200 after:content=[""] after:w-0 after:h-1 after:absolute after:left-0 after:top-0 after:bg-twoPrimaryColor hover:after:w-full`}>{item.navItem}</Link></li>
                             ))
                         }
                     </ul>

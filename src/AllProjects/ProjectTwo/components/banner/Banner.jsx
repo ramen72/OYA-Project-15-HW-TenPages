@@ -1,22 +1,23 @@
-import React, { Fragment } from 'react';
-import bannerBG from '../../images/bannerBg.jpg'
-import bannerImage from '../../images/bannerImage.png'
+import React from 'react';
+import bannerImage1 from '../../images/bannerImage1.jpg'
+import bannerImage2 from '../../images/bannerImage2.jpg'
+import { Link } from 'react-router';
+import { FaArrowRight } from "react-icons/fa6";
 
 const Banner = () => {
     return (
-        <Fragment>
-            <div className={`bg-pOneBannerBG bg-top bg-no-repeat bg-cover relative overflow-x-hidden`}>
-                <div className='max-w-containerOne mx-auto'>
-                    <div className='py-44'>
-                        <h1 className={"font-poppins font-bold text-[137px] text-white leading-[90%] text-center relative z-0 before:content-['_BUILDING'] before:absolute before:z-[-1] before:-top-[27%] before:left-[26.5%] before:ml-0.5 before:text-red-500 before:text-transparent-stroke after:content-['_DREAMS'] after:text-[110px] after:absolute after:z-[-1] after:top-[83%] after:left-1/2 after:-translate-x-1/2 after:ml-0.5 after:text-red-500 after:text-transparent-stroke"}>BUILDING DREAMS</h1>
-                    </div>
+        <>
+            <div className='flex justify-between items-center'>
+                <img src={bannerImage1} alt="bannerImage" />
+                <div className='text-center'>
+                    <h4 className='uppercase text-headingColor text-[21px] font-semibold'>PORTO TEMPLATE</h4>
+                    <h1 className='uppercase text-headingColor text-[52px] font-extrabold tracking-tighter'>INCREDIBLE DESIGNS</h1>
+                    <p className='text-xl tracking-wide font-light text-paraColor mb-10'>Porto is a huge success in the one of world's largest MarketPlace.</p>
+                    <Link to={"/projectTwo"} className=' uppercase inline-block text-white bg-twoPrimaryColor py-4 px-9 rounded-md font-bold tracking-wide text-[13px]'>get Stared now <FaArrowRight className='inline-block ml-2 text-lg'/></Link>
                 </div>
-                <img src={bannerImage} alt="" className='absolute right-16 bottom-0 h-[714px]'/>
-                <div className="absolute bottom-0 transform -translate-y-1/2 right-[-70px] w-[975px] bg-pOnePrimary text-white font-bold uppercase text-2xl md:text-2xl py-9 px-14 skew-x-[-50deg]">
-                    <span className="inline-block skew-x-[50deg]">#1 Fastest-Growing Company</span>
-                </div>
+                <img src={bannerImage2} alt="bannerImage" />
             </div>
-        </Fragment>
+        </>
     );
 };
 

@@ -19,6 +19,10 @@ export default {
         "navBG" : 'rgba(255, 255, 255, 0.8)',
         "headingColor" : '#212529',
         "paraColor" : '#777777',
+        // ProjectTwo
+        "twoPrimaryColor" : '#079cf4',
+        'twoPara': 'rgb(177 177 177)',
+
       },backgroundImage: {
         'pOneBannerBG': "url('./src/AllProjects/projectOne/images/bannerBg.jpg')",
         'pOneBannerComment': "url('./src/AllProjects/projectOne/images/comments-BG.jpg')",
