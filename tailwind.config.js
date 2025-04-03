@@ -16,12 +16,13 @@ export default {
       },
       colors:{
         "pOnePrimary" : '#E04622',
-        "navBG" : 'rgba(255, 255, 255, 0.8)',
+        "navBG" : '#ffffffcc',
         "headingColor" : '#212529',
         "paraColor" : '#777777',
         // ProjectTwo
         "twoPrimaryColor" : '#079cf4',
         'twoPara': 'rgb(177 177 177)',
+        "twoBgColor": "#f4f4f4",
 
       },backgroundImage: {
         'pOneBannerBG': "url('./src/AllProjects/projectOne/images/bannerBg.jpg')",
