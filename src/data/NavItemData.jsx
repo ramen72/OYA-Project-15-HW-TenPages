@@ -1,8 +1,7 @@
 export const navItemData = [
     {
         "itemText" : "DummyLink",
-        "url" : "https://www.okler.net/previews/porto/12.1.0/index-corporate-8.html",
-        "pageOneUrl" : "https://www.okler.net/previews/porto/12.1.0/demo-construction.html",
+        "url" : "https://www.okler.net/previews/porto/12.1.0/demo-business-consulting-2.html",
     },
     {
         "itemText" : "Home",
@@ -11,38 +10,20 @@ export const navItemData = [
     },
     {
         "itemText" : "Building dreams",
-        "url" : "/projectOne"
+        "url" : "/projectOne",
+        "pageOneUrl" : "https://www.okler.net/previews/porto/12.1.0/demo-construction.html",
     },
     {
         "itemText" : "INCREDIBLE DESIGNS",
-        "url" : "/projectTwo#"
+        "url" : "/projectTwo#",
+        "pageOneUr2" : "https://www.okler.net/previews/porto/12.1.0/index-corporate-8.html",
     },
     {
-        "itemText" : "Page - 4",
-        "url" : "#"
+        "itemText" : "Business Consulting",
+        "url" : "/businessConsulting"
     },
     {
         "itemText" : "Page - 5",
         "url" : "#"
     },
-    {
-        "itemText" : "Page - 6",
-        "url" : "#"
-    },
-    {
-        "itemText" : "Page - 7",
-        "url" : "#"
-    },
-    {
-        "itemText" : "Page - 8",
-        "url" : "#"
-    },
-    {
-        "itemText" : "Page - 9",
-        "url" : "#"
-    },
-    // {
-    //     "itemText" : "Page - 10",
-    //     "url" : "#"
-    // },
 ]

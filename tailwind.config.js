@@ -19,12 +19,20 @@ export default {
         "navBG" : '#ffffffcc',
         "headingColor" : '#212529',
         "paraColor" : '#777777',
-
+        
         
         // ProjectTwo
         "twoPrimaryColor" : '#079cf4',
         'twoPara': 'rgb(177 177 177)',
         "twoBgColor": "#f4f4f4",
+        
+        // ProjectThree
+        "threePrimaryColor": "#183f72",
+        "threeSecondaryColor": "#e8465f",
+        "threeParaColor" : '#777777',
+        "threeSubTitleColor" : '#222529',
+        "threeBgColor":"#eef0f4",
+        "threeHoverBgColor":"#ec687c",
 
       },backgroundImage: {
         'pOneBannerBG': "url('./src/AllProjects/projectOne/images/bannerBg.jpg')",
