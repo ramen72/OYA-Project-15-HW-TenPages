@@ -1,22 +1,22 @@
-export const NavDataProjectTwo = [
+export const NavDataProjectThree = [
     {
         "navItem" : "Home",
-        "url" : "/projectTwo",
+        "url" : "/businessConsulting",
     },
     {
-        "navItem" : "elements",
+        "navItem" : "about us",
         "url" : "#",
     },
     {
-        "navItem" : "features",
+        "navItem" : "service",
         "url" : "#",
     },
     {
-        "navItem" : "pages",
+        "navItem" : "cases",
         "url" : "#",
     },
     {
-        "navItem" : "portfolio",
+        "navItem" : "team",
         "url" : "#",
     },
     {
@@ -24,7 +24,7 @@ export const NavDataProjectTwo = [
         "url" : "#",
     },
     {
-        "navItem" : "shop",
+        "navItem" : "contact us",
         "url" : "#",
     },
 ]
