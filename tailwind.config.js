@@ -10,6 +10,7 @@ export default {
         'containerWidth': '1320px',
         'containerOne': '1140px',
         'containerTwo': '1120px',
+        'containerThree': '1210px',
       },
       fontFamily: {
         'poppins': `"Poppins", sans-serif`,
