@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { navItemData } from '../../data/NavItemData';
 import { Link } from 'react-router';
+import { useLocation } from 'react-router'
 
 
 const Navbar = () => {
-    const [active, setActive] = useState("Home")
+    let location = useLocation()
+    console.log(location)
     
     return (
         <>
@@ -16,7 +18,7 @@ const Navbar = () => {
                                 navItemData.map((item,index)=>(
                                     // <li key={index}><a href={item.url} onClick={()=>setActive(item.itemText)} className={`text-base font-bold border border-[#284656] transition-all duration-200 hover:text-white ${active === item.itemText && "bg-[#284656] text-white"} hover:bg-[#284656] py-1 px-3 inline-block rounded-2xl`}>{item.itemText}</a></li>
                                     <li key={index}>
-                                        <Link to={item.url} onClick={()=>setActive(item.itemText)} className={`text-base font-bold border border-[#284656] transition-all duration-200 hover:text-white ${active === item.itemText && "bg-[#284656] text-white"} hover:bg-[#284656] py-1 px-3 inline-block rounded-2xl`}>{item.itemText}</Link>
+                                        <Link to={item.url} className={`text-base font-bold border border-[#284656] transition-all duration-200 hover:text-white ${location.pathname === item.url ? "bg-[#284656] text-white" : ""} hover:bg-[#284656] py-1 px-3 inline-block rounded-2xl`}>{item.itemText}</Link>
                                         </li>
                                     
 

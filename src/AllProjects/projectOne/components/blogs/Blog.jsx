@@ -11,15 +11,13 @@ const Blog = () => {
                     <div className='flex justify-between items-center gap-x-6 mt-11'>
                         {
                             blogData.map((blog,index)=>(
-                                <>
-                                    <div>
+                                    <div key={index}>
                                         <img src={blog.url} alt="blogImage" />
                                         <h3 className='mt-8 mb-1 text-base font-semibold uppercase text-[#969696]'>{blog.user}</h3>
                                         <h2 className='mb-2 font-bold text-xl text-headingColor'>{blog.title}</h2>
                                         <p className='text-paraColor mb-2'>{blog.para}</p>
                                         <blog.button btnText={"View More"}/>
                                     </div>
-                                </>
                             ))
                         }
                     </div>

@@ -15,7 +15,7 @@ export const navItemData = [
     },
     {
         "itemText" : "INCREDIBLE DESIGNS",
-        "url" : "/projectTwo#",
+        "url" : "/projectTwo",
         "pageOneUr2" : "https://www.okler.net/previews/porto/12.1.0/index-corporate-8.html",
     },
     {

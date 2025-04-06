@@ -6,6 +6,7 @@ import Banner from '../components/banner/Banner';
 import Service from '../components/services/Service';
 import Team from '../components/team/Team';
 import Stories from '../components/stories/Stories';
+import Plan from '../components/plan/Plan';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Service/>
             <Team/>
             <Stories/>
+            <Plan/>
         </MasterLayer>
     );
 };
