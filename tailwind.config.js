@@ -39,7 +39,8 @@ export default {
         'pOneBannerBG': "url('./src/AllProjects/projectOne/images/bannerBg.jpg')",
         'pOneBannerComment': "url('./src/AllProjects/projectOne/images/comments-BG.jpg')",
         'footerBg': "url('./src/AllProjects/projectOne/images/footerBG.jpg')",
-        'threeBannerBg': "url('./src/AllProjects/projectThree/images/slide-2.jpg')"
+        'threeBannerBg': "url('./src/AllProjects/projectThree/images/slide-2.jpg')",
+        "threeServiceBG":"url('./src/AllProjects/projectThree/images/serviceBg.jpg')"
       },
     },
   },
