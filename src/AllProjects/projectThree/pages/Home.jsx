@@ -5,6 +5,7 @@ import NavBar from '../components/navbar/NavBar';
 import Banner from '../components/banner/Banner';
 import Service from '../components/services/Service';
 import Team from '../components/team/Team';
+import Stories from '../components/stories/Stories';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Banner/>
             <Service/>
             <Team/>
+            <Stories/>
         </MasterLayer>
     );
 };
