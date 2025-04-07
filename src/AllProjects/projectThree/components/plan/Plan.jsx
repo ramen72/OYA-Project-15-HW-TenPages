@@ -5,7 +5,7 @@ import { FaMobileScreenButton } from "react-icons/fa6";
 const Plan = () => {
     return (
         <>
-            <div className="bg-threePrimaryColor text-white py-20">
+            <div className="bg-threePrimaryColor text-white py-16">
                 <div className="max-w-containerThree mx-auto">
                     <div className="flex justify-between items-center">
                         <div className="w-[605px]">
