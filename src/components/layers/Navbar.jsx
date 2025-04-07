@@ -20,8 +20,6 @@ const Navbar = () => {
                                     <li key={index}>
                                         <Link to={item.url} className={`text-base font-bold border border-[#284656] transition-all duration-200 hover:text-white ${location.pathname === item.url ? "bg-[#284656] text-white" : ""} hover:bg-[#284656] py-1 px-3 inline-block rounded-2xl`}>{item.itemText}</Link>
                                         </li>
-                                    
-
                                 ))
                             }
                         </ul>

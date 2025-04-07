@@ -21,9 +21,6 @@
 body{
     font-family: "Poppins", sans-serif;
 }
-/* .max-w-containerWidth{
+.max-w-containerFour{
     border: 1px solid rgba(255, 0, 0, 0.404);
-} */
-/* .max-w-containerThree{
-    border: 1px solid rgba(255, 0, 0, 0.404);
-} */
+}

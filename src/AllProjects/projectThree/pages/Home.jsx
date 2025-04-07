@@ -8,6 +8,7 @@ import Team from '../components/team/Team';
 import Stories from '../components/stories/Stories';
 import Plan from '../components/plan/Plan';
 import Blog from '../components/blogs/Blog';
+import Footer from '../components/footer/Footer';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <Stories/>
             <Plan/>
             <Blog/>
+            <Footer/>
         </MasterLayer>
     );
 };

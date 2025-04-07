@@ -12,7 +12,7 @@ const Blog = () => {
                     <div className="flex justify-between items-center">
                         {
                             BlogCardData.map((item,index)=>(
-                                <BlogCard key={index} url={'#'} date={item.date} comments={item.comments} user={item.user} title={item.title} para={item.para} buttonText={item.buttonText}/>
+                                <BlogCard key={index} url={item.url} date={item.date} comments={item.comments} user={item.user} title={item.title} para={item.para} buttonText={item.buttonText}/>
                             ))
                         }
                     </div>
